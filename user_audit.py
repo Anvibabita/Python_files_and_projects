@@ -1,4 +1,5 @@
 #pip install mysql-connector-python
+""" Store website user activity in MySQL db """
 from mysql.connector import connect
 from flask import request, session, current_app as ca, Response
 from datetime import datetime
